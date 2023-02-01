@@ -1,11 +1,13 @@
 import React, {useState} from 'react'
 import {HiMenuAlt3, HiHome, HiTerminal, HiPencilAlt, HiPhone} from 'react-icons/hi'
+import { IoMdSchool } from "react-icons/io";
 import { Link } from 'react-router-dom'
 
 function Sidebar() {
 
     const menus = [
         {name: 'Home', link:'/', icon: HiHome},
+        {name: 'Educação', link:'/educação', icon: IoMdSchool},
         {name: 'Skills', link:'/skills', icon: HiTerminal},
         {name: 'Projetos', link:'/projetos', icon: HiPencilAlt},
         {name: 'Contato', link:'/contato', icon: HiPhone},
