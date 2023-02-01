@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Sidebar from './components/Sidebar';
 import Educ from './pages/Educ';
 import Skills from './pages/Skills';
+import Projetos from './pages/Projetos';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />}/>
         <Route path='/linha-do-tempo' element={<Educ />}/>
         <Route path='/skills' element={<Skills />}/>
+        <Route path='/projetos' element={<Projetos />}/>
       </Routes>
     </BrowserRouter>
     </>
