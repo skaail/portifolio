@@ -11,7 +11,7 @@ function App() {
     <Sidebar />
       <Routes>
         <Route index element={<Home />}/>
-        <Route path='/educação' element={<Educ />}/>
+        <Route path='/linha-do-tempo' element={<Educ />}/>
       </Routes>
     </BrowserRouter>
     </>
