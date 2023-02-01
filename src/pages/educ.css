@@ -1,0 +1,14 @@
+.timeline{
+    margin: 0 !important;
+    width: 100% !important;
+    
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+  
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
