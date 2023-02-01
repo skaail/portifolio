@@ -6,7 +6,6 @@ function Sidebar() {
 
     const menus = [
         {name: 'Home', link:'/', icon: HiHome},
-        {name: 'Resumo', link:'/resumo', icon: HiPaperClip},
         {name: 'Skills', link:'/skills', icon: HiTerminal},
         {name: 'Projetos', link:'/projetos', icon: HiPencilAlt},
         {name: 'Contato', link:'/contato', icon: HiPhone},
