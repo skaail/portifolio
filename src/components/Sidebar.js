@@ -12,7 +12,7 @@ function Sidebar() {
         {name: 'Contato', link:'/contato', icon: HiPhone},
     ]
 
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
   return (
     <section className='float-left'>
