@@ -15,7 +15,7 @@ function Home() {
               'Bruno Gianini'
             ]}
             wrapper="div"
-            cursor={false}
+            cursor={true}
             repeat={false}
             style={{fontSize: '2em'}}
           />
