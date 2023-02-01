@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {HiMenuAlt3, HiHome, HiPaperClip, HiTerminal, HiPencilAlt, HiPhone} from 'react-icons/hi'
+import {HiMenuAlt3, HiHome, HiTerminal, HiPencilAlt, HiPhone} from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 
 function Sidebar() {

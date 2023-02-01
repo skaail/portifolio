@@ -10,7 +10,6 @@ function App() {
     <Sidebar />
       <Routes>
         <Route index element={<Home />}/>
-        <Route path='/resumo' element={<Resumo />}/>
       </Routes>
     </BrowserRouter>
     </>
